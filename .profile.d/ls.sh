@@ -13,4 +13,5 @@ export LS
 
 alias ls='$LS --color=auto'
 alias ll='ls -Ahl'
+alias la='ls -A'
 alias l='ls -CF'
