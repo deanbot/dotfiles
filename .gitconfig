@@ -1,0 +1,35 @@
+[user]
+  name = Dean Verleger
+  email = deanverleger@gmail.com
+
+[core]
+  editor = vi
+  excludesfile = ~/.gitignore-global
+  ignorecase = false
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+
+[push]
+  default = simple
+
+[branch]
+  autosetuprebase = always
+
+[color]
+  status = auto
+
+[merge]
+  ff = true
+
+[pull]
+  rebase = true
+
+[mergetool]
+  keepBackup = false
