@@ -7,7 +7,7 @@ lp() {
   do
     if [ ! -z "$var" ]; then
       ln -s "$HOME/.profile.d/$var" "$HOME/.profile.d/enabled/$var"
-      source "$HOME/.profile"
+      source "$HOME/.profile.d/enabled/$var"
     fi
   done
 }
