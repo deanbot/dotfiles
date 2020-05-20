@@ -2,7 +2,7 @@
 
 Enable environment specific scripts by following the pattern:
 
-`ln -s "$HOME/.[env].d/lb.sh" "$HOME/.[env].d/enabled/lb.sh"`
+`ln -s "$HOME/.[env].d/script.sh" "$HOME/.[env].d/enabled/script.sh"`
 
 All env's funnel into .profile.d so that can be used as a catch all.
 
