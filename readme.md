@@ -8,9 +8,9 @@ All env's funnel into .profile.d so that can be used as a catch all.
 
 ## Helper
 
-Enable `lp` helper function: `ln -s "$HOME/.profile.d/lb.sh" "$HOME/.profile.d/enabled/lb.sh"`.
+Enable `lp` helper function: `ln -s "$HOME/.profile.d/lp.sh" "$HOME/.profile.d/enabled/lp.sh"`.
 
-Afterwards a script in `.profile.d` can be enabled via `lp script.sh`. Link multiple: `lp s1.sh s2.sh s3.sh`.
+Afterwards a script in `.profile.d` can be enabled via `lp script.sh` (or link multiple, i.e. `lp bin.sh ls.sh grep.sh`).
 
 ## Suggested
 
