@@ -17,3 +17,7 @@ Afterwards a script in `.profile.d` can be enabled via `lp script.sh` (or link m
 * zsh
 * [oh-my-zsh](https://ohmyz.sh/)
 * [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+## Credits
+
+This is modified from [mcandre/dotfiles](https://github.com/mcandre/dotfiles).
