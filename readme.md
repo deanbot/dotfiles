@@ -32,7 +32,7 @@ Modifications for **Interactice** contexts (i.e. aliases) should go in `.zshrc.d
 
 ### Helper
 
-Enable `lz` ("link .zshrc.d") helper function: `ln -s "$HOME/.zshrc.d/lp.sh" "$HOME/.zshrc.d/enabled/lp.sh"`.
+Enable `lz` ("link .zshrc.d") helper function: `ln -s "$HOME/.zshrc.d/lz.sh" "$HOME/.zshrc.d/enabled/lz.sh"`.
 
 Afterwards a script in `.zshrc.d` can be enabled via `lz zshrc.sh` (or link multiple, i.e. `lz bin.sh ls.sh grep.sh`).
 
