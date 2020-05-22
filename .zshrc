@@ -1,5 +1,4 @@
 #!/bin/zsh
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -27,19 +26,16 @@ if [ -d "$HOME/.oh-my-zsh" ]; then
 	ZSH="$HOME/.oh-my-zsh"
 	ZSH_THEME='powerlevel10k/powerlevel10k'
 
-	plugins=(git)
+	plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
-	#
-	# Unbork aliases
-	#
-
+	# save aliases
 	AA="$(alias -L)"
 
-	# shellcheck source=/dev/null
+	# load oh my zsh but remove all its aliases
 	. "$ZSH/oh-my-zsh.sh"
-
 	unalias -m '*'
 
+	# re-apply aliases
 	eval "$AA"
 
 	# https://github.com/romkatv/powerlevel10k
