@@ -1,6 +1,6 @@
 # Configuration Files
 
-Orderly zsh-focused POSIX shell configuration files _and_ various other configuration (i.e. Windows Terminal settings).
+Orderly Zsh-focused POSIX shell configuration files _and_ various other configuration (i.e. Windows Terminal settings).
 
 Enable environment specific scripts by following the pattern:
 
@@ -22,9 +22,9 @@ I.e. to manage bash configs:
 
   `ln -s $HOME/.bashrc.d/ls.sh $HOME/.bashrc.d/enabled/ls.sh`
 
-Note: bash and zsh both funnel into `.profile.d` so that can be used as a catch all for different shells.
+Note: bash and Zsh both funnel into `.profile.d` so that can be used as a catch all for different shells.
 
-## zsh
+## Zsh
 
 Modifications for **non-interactive** contexts (i.e. changing PATH) should go in `.zshenv.d`.
 
@@ -34,9 +34,9 @@ Modifications for **Interactice** contexts (i.e. aliases) should go in `.zshrc.d
 
 Enable `lz` ("link .zshrc.d") helper function: `ln -s "$HOME/.zshrc.d/lz.sh" "$HOME/.zshrc.d/enabled/lz.sh"`.
 
-Afterwards a script in `.zshrc.d` can be enabled via `lz zshrc.sh` (or link multiple, i.e. `lz bin.sh ls.sh grep.sh`).
+Afterwards a script in `.zshrc.d` can be enabled via `lz Zshrc.sh` (or link multiple, i.e. `lz bin.sh ls.sh grep.sh`).
 
-There's a similar helper, `lzenv`, in .`zshenv.d`.
+There's a similar helper, `lzenv`, in .`Zshenv.d`.
 
 ## Windows Terminal
 
@@ -44,10 +44,15 @@ See `./template/WindowsTerminal/readme.md`.
 
 ## Suggested
 
-* zsh
-* [oh-my-zsh](https://ohmyz.sh/)
-* [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+* Zsh
+* [oh-my-Zsh](https://ohmyz.sh/)
+  * plugins:
+    * [git](https://github.com/ohmyZsh/ohmyZsh/tree/master/plugins/git)
+    * [rsync](https://github.com/ohmyZsh/ohmyZsh/tree/master/plugins/rsync)
+    * [tmux](https://github.com/ohmyZsh/ohmyZsh/tree/master/plugins/tmux)
+    * [web_search](https://github.com/ohmyZsh/ohmyZsh/tree/master/plugins/web-search)
+    * [Zsh-autosuggestion](https://github.com/Zsh-users/Zsh-autosuggestions/blob/master/INSTALL.md)
+    * [Zsh-syntax-highlighting](https://github.com/Zsh-users/Zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-Zsh)
 * [Patched Meslo Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 * [powerlevel10k theme](https://github.com/romkatv/powerlevel10k)
 * _Windows Terminal_

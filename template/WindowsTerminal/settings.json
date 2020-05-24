@@ -20,7 +20,7 @@
     "profiles": {
         "defaults": {
             // Put settings here that you want to apply to all profiles.
-            "fontFace": "MesloLGS NF",
+            // "fontFace": "MesloLGS NF",
             "fontSize": 9,
             "snapOnInput": true,
             "historySize": 9001,
