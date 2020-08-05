@@ -1,0 +1,68 @@
+{
+  "editor.fontSize": 12,
+  "editor.fontFamily": "'Fira Code', Operator Mono, 'MesloLGS NF', Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.glyphMargin": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.multiCursorModifier": "alt",
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": true,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "files.eol": "\n",
+  "files.hotExit": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\sh.exe",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.rendererType": "dom",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "search.useGlobalIgnoreFiles": true,
+  "workbench.colorTheme": "Shades of Purple",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "full": {
+        "custom": {
+          "backgroundColor": "rgba(165, 153, 233, 0.1)"
+        }
+      },
+      "left": {
+        "custom": {
+          "borderWidth": "0"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0"
+        }
+      }
+    }
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "extensions.ignoreRecommendations": true,
+  "outline.showVariables": false,
+  "breadcrumbs.enabled": true,
+  "workbench.sideBar.location": "left",
+  "files.autoSave": "off",
+  "files.insertFinalNewline": true,
+  "editor.renderControlCharacters": true
+}
